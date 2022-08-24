@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Gatitos Aleatorios <p>&#x1f408;</p></h1>
+    <button onclick="fetchImg()">Generar Gatito</button> <br>
+    <img alt="foto-gatito-aleatorio">
+</body>
+
+<script src="./main.js"></script>
+
+<style>
+
+    *{
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: gray ;
+        background-color: #ffcef9;
+    }
+
+    h1{
+        margin: 40px;
+    }
+    button{
+        padding: 15px;
+        background-color: rgb(255, 140, 240);
+        color: rgb(138, 37, 121);
+        border: none;
+        border-radius: 20px;
+        font-weight: bold;
+    }
+
+    button:hover{
+        padding: 15px;
+        background-color: rgb(202, 75, 185);
+        color: rgb(255, 255, 255);
+        border: none;
+        border-radius: 20px;
+        transition: 300ms ease;
+    }
+    img {
+        width: 300px;
+        margin: 0 auto;
+        margin-top: 30px;border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        animation: fadeIn 5s;
+
+    }
+    
+    @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    }
+</style>
+</html>
+
+
